@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title> Floricultura Lotus - Pagamento </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" style type="text/css" href="../floricultura_lotus/css/style.css">
+
+</head>
+
+<body class="body-bg">
+  <section class="top-contact-content">
+    <div class="topnav">
+      <a class="home" href="index.html">Home</a>
+      <a class="shop" href="article.html">Shop</a>
+      <a class="contact" href="contact.html">Contact</a>
+      <a class="cart" style="background-color:rgb(144, 219, 139)" href="input.html">Cart</a>
+    </div>
+  </section>
+  <section class="navbar-logo">
+    <div class="logo-container">
+      <div class="navbar-logo">
+        <img src="../floricultura_lotus/images/lotus-logo.png" />
+      </div>
+      <table>
+        <tr>
+          <th class="call-us" href="#"><span style="color:rgb(133, 168, 144)">Ligue para nós: </span> <br><i
+              class="fa fa-phone" aria-hidden="true"></i>1234-3456 </th>
+          <th class="email" href="#"><span style="color:rgb(133, 168, 144)">E-mail: </span> <br>1234@hotmail.com </th>
+        </tr>
+    </div>
+    </div>
+    </table>
+  </section>
+  <section class="side-navigation-container">
+    <div id="mySidenav" class="sidenav">
+      <a href="input.html" id="carrinho"><i class="fa fa-cart-arrow-down"></i></a>
+      <a href="index.html" id="home"><i class="fa fa-home" aria-hidden="true"></i></a>
+    </div>
+  </section>
+  <section class="checkout-form">
+    <div class="bg-img">
+      <div class="fonte-inicial">
+        <h2>Faça sua encomenda!</h2>
+        <p>Por favor, preencha corretamente os elementos abaixo e escolha o produto que deseja comprar. Logo após isso,
+          finalize a compra.</p>
+      </div>
+      <div class="row-form">
+        <div class="col-75">
+          <div class="container-form">
+            <form action="/action_page.php">
+
+              <div class="row-form">
+                <div class="col-50">
+                  <h3>Endereço de Cobrança <br>
+                    <span style="color:rgb(178, 192, 114)">- - - - - - - ❀ - - - - - - -  </span></h3>
+                  <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="seuemail@example.com">
+                  <label for="adr"><i class="fa fa-map-marker" aria-hidden="true"></i> Endereço</label>
+                  <input type="text" id="adr" name="address" placeholder="Rua Trinta e Um de Março 817">
+                  <label for="city">Cidade</label>
+                  <input type="text" id="city" name="city" placeholder="Brasilia">
+
+                  <div class="row-form">
+                    <div class="col-50">
+                      <label for="state">Estado</label>
+                      <input type="text" id="state" name="state" placeholder="DF">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">CEP</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-50">
+                  <h3>Forma de Pagamento <br>
+                    <span style="color:rgb(178, 192, 114)">- - - - - - - ❀ - - - - - - </span></h3> 
+                  <label for="fname">Cartões Aceitos</label>
+                  <div class="card-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cvv">CVV</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="352">
+                  <label for="cname">Nome do Cartão</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Nome do cartão">
+                  <label for="ccnum">Número do Cartão de Crédito</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="0101-0202-3030-4040">
+
+                  <label for="bdaymonth">Data de Validade</label>
+                  <input type="month" id="bdaymonth" name="bdaymonth">
+                </div>
+              </div>
+              <input type="submit" value="Continue para finalizar a compra" class="btn">
+            </form>
+          </div>
+        </div>
+        <div class="col-25">
+          <div class="container-form">
+            <h4>Carrinho <span class="price" style="color: rgb(109, 141, 99)"><i class="fa fa-shopping-cart"></i>
+                <b>0</b></span>
+            </h4>
+            <p><a href="article.html">Escolher...</a> <span style="color: rgb(158, 90, 90)" class="price">R$0</span></p>
+            <p><a href="article.html">Escolher...</a> <span style="color: rgb(158, 90, 90)" class="price">R$0</span></p>
+            <p><a href="article.html">Escolher...</a> <span style="color: rgb(158, 90, 90)" class="price">R$0</span></p>
+            <p><a href="article.html">Escolher...</a> <span style="color: rgb(158, 90, 90)" class="price">R$0</span></p>
+            <hr>
+            <p>Total <span class="price" style="color: rgb(109, 141, 99)"><b>$0</b></span></p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class=footer>
+    <div class="bg-footer">
+      <table class="table-footer">
+        <th class="first"><span style="color:rgb(104, 129, 112)">Redes Sociais</th></span>
+        <th class="first"><span style="color:rgb(104, 129, 112)">Sobre</th></span>
+        <th class="first"><span style="color:rgb(104, 129, 112)">Ajuda</th></span>
+        </tr>
+        <tr>
+          <td><a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook-square"> Floricultura
+                Lotus</span></a></td>
+          <td>• Saiba nossas promoções</td>
+          <td>• Forma de Pagamentos</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.twitter.com/" target="_blank"><span class="fa fa-twitter-square">
+                @Floricultura_Lotus</span></a></td>
+          <td>• Eventos</td>
+          <td>• Termos de Uso</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.instagram.com/" target="_blank"><span class="fa fa-instagram">
+                @Floricultura_Lotus</span></a>
+          </td>
+          <td>• Fontes</td>
+          <td>• Solicitar uma Encomenda</td>
+        </tr>
+      </table>
+      <div class="line-copy">
+        <p class="copyright"><span style="color:rgb(104, 129, 112)">2021 - Floricultura Lotus</span></p>
+      </div>
+    </div>
+  </section>
+  </section>
